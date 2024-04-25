@@ -8,32 +8,32 @@
     <script src="js/app.js" defer></script>
 </head>
 <body>
-  <div class="calculator">
-    <div class="screen" id="screen"></div>
-    <div class="buttons">
-      <div class="basic-buttons">
-        <button onclick="clearScreen()">C</button>
-        <button onclick="addToScreen('(')">(</button>
-        <button onclick="addToScreen(')')">)</button>
-        <button onclick="addToScreen('^')">^</button>
-        <button onclick="addToScreen('/')">÷</button>
-        <button onclick="addToScreen('7')">7</button>
-        <button onclick="addToScreen('8')">8</button>
-        <button onclick="addToScreen('9')">9</button>
-        <button onclick="addToScreen('*')">x</button>
-        <button onclick="addToScreen('4')">4</button>
-        <button onclick="addToScreen('5')">5</button>
-        <button onclick="addToScreen('6')">6</button>
-        <button onclick="addToScreen('-')">-</button>
-        <button onclick="addToScreen('1')">1</button>
-        <button onclick="addToScreen('2')">2</button>
-        <button onclick="addToScreen('3')">3</button>
-        <button onclick="addToScreen('+')">+</button>
-        <button onclick="addToScreen('0')">0</button>
-        <button onclick="addToScreen('.')">.</button>
-        <button onclick="calculate()">=</button>
+  <div class="calculadora">
+    <div class="pantalla" id="pantalla"></div>
+    <div class="boton">
+      <div class="botones">
+        <button onclick="botons('7')">7</button>
+        <button onclick="botons('8')">8</button>
+        <button onclick="botons('9')">9</button>
+        <button onclick="botons('4')">4</button>
+        <button onclick="botons('5')">5</button>
+        <button onclick="botons('6')">6</button>
+        <button onclick="botons('1')">1</button>
+        <button onclick="botons('2')">2</button>
+        <button onclick="botons('3')">3</button>
+        <button onclick="botons('.')">.</button>
+        <button onclick="botons('0')">0</button>
+        <button onclick="calcular()">=</button>
+        <button onclick="botons('(')">(</button>
+        <button onclick="botons(')')">)</button>
       </div>
-      <div class="scientific-buttons">
+      <div class="otros">
+        <button onclick="limpiar()">C</button>
+        <button onclick="botons('^')">^</button>
+        <button onclick="botons('*')">x</button>
+        <button onclick="botons('/')">÷</button>
+        <button onclick="botons('-')">-</button>
+        <button onclick="botons('+')">+</button>
         <button onclick="sqrt()">√</button>
         <button onclick="sin()">sin</button>
         <button onclick="cos()">cos</button>

@@ -1,33 +1,33 @@
-let screen = document.getElementById('screen');
+let pantalla = document.getElementById('pantalla');
 
-function addToScreen(value) {
-  screen.innerText += value;
+function botons(value) {
+  pantalla.innerText += value;
 }
 
-function calculate() {
+function calcular() {
   try {
-    screen.innerText = eval(screen.innerText);
+    pantalla.innerText = eval(pantalla.innerText);
   } catch (error) {
-    screen.innerText = 'Error';
+    pantalla.innerText = 'Error';
   }
 }
 
-function clearScreen() {
-  screen.innerText = '';
+function limpiar() {
+  pantalla.innerText = '';
 }
 
 function sqrt() {
-  screen.innerText = Math.sqrt(parseFloat(screen.innerText));
+  pantalla.innerText = Math.sqrt(parseFloat(pantalla.innerText));
 }
 
 function sin() {
-  screen.innerText = Math.sin(parseFloat(screen.innerText));
+  pantalla.innerText = Math.sin(parseFloat(pantalla.innerText));
 }
 
 function cos() {
-  screen.innerText = Math.cos(parseFloat(screen.innerText));
+  pantalla.innerText = Math.cos(parseFloat(pantalla.innerText));
 }
 
 function tan() {
-  screen.innerText = Math.tan(parseFloat(screen.innerText));
+  pantalla.innerText = Math.tan(parseFloat(pantalla.innerText));
 }
