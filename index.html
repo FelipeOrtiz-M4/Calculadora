@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div class="calculator">
+    <div class="screen" id="screen"></div>
+    <div class="buttons">
+      <div class="basic-buttons">
+        <button onclick="clearScreen()">C</button>
+        <button onclick="addToScreen('(')">(</button>
+        <button onclick="addToScreen(')')">)</button>
+        <button onclick="addToScreen('^')">^</button>
+        <button onclick="addToScreen('/')">÷</button>
+        <button onclick="addToScreen('7')">7</button>
+        <button onclick="addToScreen('8')">8</button>
+        <button onclick="addToScreen('9')">9</button>
+        <button onclick="addToScreen('*')">x</button>
+        <button onclick="addToScreen('4')">4</button>
+        <button onclick="addToScreen('5')">5</button>
+        <button onclick="addToScreen('6')">6</button>
+        <button onclick="addToScreen('-')">-</button>
+        <button onclick="addToScreen('1')">1</button>
+        <button onclick="addToScreen('2')">2</button>
+        <button onclick="addToScreen('3')">3</button>
+        <button onclick="addToScreen('+')">+</button>
+        <button onclick="addToScreen('0')">0</button>
+        <button onclick="addToScreen('.')">.</button>
+        <button onclick="calculate()">=</button>
+      </div>
+      <div class="scientific-buttons">
+        <button onclick="sqrt()">√</button>
+        <button onclick="sin()">sin</button>
+        <button onclick="cos()">cos</button>
+        <button onclick="tan()">tan</button>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
